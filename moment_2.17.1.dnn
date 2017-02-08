@@ -1,0 +1,45 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="momentjs" type="JavaScript_Library" version="2.17.1">
+      <friendlyName>MomentJS</friendlyName>
+      <description><![CDATA[ 
+<p> lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.</p>
+      ]]></description>
+      <owner>
+        <name>Steven A West</name>
+        <organization>Itawamba Community College</organization>
+        <url>http://www.iccms.edu</url>
+        <email>sawest@iccms.edu</email>
+      </owner>
+      <license src="LICENSE.md" />
+      <releaseNotes src="Readme.md" />
+      <azureCompatible>true</azureCompatible>
+      <components>
+       <component type="JavaScript_Library">
+ <javaScriptLibrary>
+            <libraryName>momentjs</libraryName>
+            <fileName>moment.min.js</fileName>
+            <preferredScriptLocation>BodyBottom</preferredScriptLocation>
+            <objectName>momentjs</objectName>
+          </javaScriptLibrary>
+               </component>
+<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>momentjs</libraryFolderName>
+              <jsfile>
+		<name>moment.min.js</name>
+		</jsfile>
+          </jsfiles>
+        </component> 
+ <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Resources\Libraries\momentjs\02_17_01</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
